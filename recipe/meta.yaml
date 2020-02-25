@@ -22,11 +22,13 @@ requirements:
     - pip
   run:
     - python >=3
+    - pip
     - pyyaml
 
 test:
   commands:
     - conda-merge --help
+    - pip check
 
 about:
   home: https://github.com/amitbeka/conda-merge
