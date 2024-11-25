@@ -1,13 +1,13 @@
 {% set name = "conda-merge" %}
-{% set version = "0.3.0" %}
+{% set version = "0.3.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 83f6bd5f1742b99cdb77638fdc19e82d826d8f3993c1dc9b8c7951a3b368e2f5
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: 532f5246f143f82aaa4f2698a0b65dfd04bbb691a106cd8ac2613c1b6f25f3fc
 
 build:
   noarch: python
